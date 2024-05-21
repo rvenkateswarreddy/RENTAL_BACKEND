@@ -22,4 +22,4 @@ app.use(bodyParser.json());
 app.use("/api/users", userRoutes);
 app.use("/api/properties", propertyRoutes);
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port number ${PORT}`));
